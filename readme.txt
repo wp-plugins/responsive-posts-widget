@@ -63,5 +63,5 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
       
 == Screenshots ==
 
-1. inteface and the display.
-
+1. Admin inteface .
+2. Post display.
