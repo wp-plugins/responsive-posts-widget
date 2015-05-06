@@ -124,7 +124,7 @@ class responsive_posts extends WP_Widget {
                     }
 					$output .= '<div class="responsive_posts_details">';
                     if($instance['posts_title']==1) {
-                        $output .='<h3 class="responsive-posts-title"><a href="'.$post_permalink.'" rel="bookmark" title="'.$trimmed_title.'">'.$trimmed_title.'</a></h3>';
+                        $output .='<h3 style="font-size:' . $instance['title_font_size'] .';" class="responsive-posts-title"><a href="'.$post_permalink.'" rel="bookmark" title="'.$trimmed_title.'">'.$trimmed_title.'</a></h3>';
                    } 
                     if ($instance['show_date']==1 || $instance['show_author']==1 || $instance['show_comments']==1) :
                         $output .= '<div class="entry-meta">';
@@ -166,6 +166,7 @@ class responsive_posts extends WP_Widget {
 	public function update($new,$old) {
         $instance = $old;
         $instance['title'] = strip_tags($new['title']);
+        $instance['title_font_size'] = strip_tags($new['title_font_size']);
         $instance['title_url'] = strip_tags($new['title_url']);
         // Posts
         $instance['posts_thumb'] = $new['posts_thumb']?1:0;
@@ -192,7 +193,8 @@ class responsive_posts extends WP_Widget {
 		// Default widget settings
 		$defaults = array(
 			'title' 			 => '',
-		// Posts
+            'title_font_size'    =>'14px',   
+		  // Posts
 			'posts_thumb' 		 => 1,            
                 'posts_thumb_width' 		 => '100',
                 'posts_thumb_hight' 		 => '100', 
@@ -216,6 +218,10 @@ class responsive_posts extends WP_Widget {
 		<p>
 			<label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title :', 'responsive_posts'); ?></label>
 			<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr($instance["title"]); ?>" />
+		</p>  
+        <p>
+			<label for="<?php echo $this->get_field_id('title_font_size'); ?>"><?php _e('Title Font Size :', 'responsive_posts'); ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id('title_font_size'); ?>" name="<?php echo $this->get_field_name('title_font_size'); ?>" type="text" value="<?php echo esc_attr($instance["title_font_size"]); ?>" />
 		</p>    
         <p>
 			<label for="<?php echo $this->get_field_id('title_url'); ?>"><?php _e('Title URL :', 'responsive_posts'); ?></label>
