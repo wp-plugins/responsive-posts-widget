@@ -23,11 +23,9 @@ If you set to display excerpt, than you will be able to define how many characte
 * You can create titles & content limit
 * You can set how many posts you wish to display  
 * You can select any category 
-* You can choose from predefined image sizes, 
-or set custom width and height
+* You can choose from predefined image sizes,or set custom width and height
 * You can choose to define the featured image
-* You can run as many instances of the 
-widget that you want to!
+* You can run as many instances of the widget that you want to!
 * You can order your posts randomly   
 * You can order your posts time
 
@@ -42,7 +40,8 @@ Support Email: m.manik01@gmail.com
 
 Recommended WordPress Plugins
 
-[Service Boxes Widgets Text Icon](https://wordpress.org/plugins/service-boxes-widgets-text-icon/)
+* [Service Boxes Widgets Text Icon](https://wordpress.org/plugins/service-boxes-widgets-text-icon/)
+* [bdwebteam recent post tabs widget](https://wordpress.org/plugins/bdwebteam-recent-post-tabs-widget/)
 
 == Installation ==
 
