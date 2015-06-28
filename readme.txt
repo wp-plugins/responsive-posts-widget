@@ -40,11 +40,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     Author URI: http://bdwebteam.com
     Support Email: m.manik01@gmail.com
     
-    **Recommended WordPress Plugins**
+    Recommended WordPress Plugins
     
-    * [Service Boxes Widgets Text Icon](https://wordpress.org/plugins/service-boxes-widgets-text-icon/)
+    [Service Boxes Widgets Text Icon](https://wordpress.org/plugins/service-boxes-widgets-text-icon/)
     
-    = Installation =
+    == Installation ==
     
     Install and Activate 
     
@@ -54,12 +54,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
        `wp-content/plugins/` directory of your WordPress installation
     3. Activate responsive-posts-widget from Plugins page
     
-    Implement
+    == Implement ==
     
     1. Go to the wp admin Widget page.
     2. Drag and drop "Responsive Posts Widget" into active sidebar.
     
-    = Frequently Asked Questions =
+    == Frequently Asked Questions ==
     
     Q : How can I add a list of posts widget to my sidebar? A :
      Go to the Appearance -> Widgets -> Choose a "Posts Widget" 
@@ -68,7 +68,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     You can check demo on following pages.
     http://plugin.bdwebteam.com/responsive-posts-widget/
     
-    = Screenshots =
+    == Screenshots ==
     
     1. Admin inteface .
     2. Post display.
