@@ -33,10 +33,10 @@ Easy to configure CSS
 You can check demo on following pages. 
 http://plugin.bdwebteam.com/responsive-posts-widget/
 
-*Credits*
+Credits
 
-Author URI: http://bdwebteam.com
-Support Email: m.manik01@gmail.com
+* Author URI: http://bdwebteam.com
+* Support Email: m.manik01@gmail.com
 
 Recommended WordPress Plugins
 
@@ -49,8 +49,7 @@ Install and Activate
 
 1. Unzip the downloaded `responsive-posts-widget` zip file
 2. Upload the `responsive-posts-widget` 
-folder and its contents into the
-`wp-content/plugins/` directory of your WordPress installation
+folder and its contents into the`wp-content/plugins/` directory of your WordPress installation
 3. Activate responsive-posts-widget from Plugins page
 
 == Implement ==
@@ -65,6 +64,7 @@ Go to the Appearance -> Widgets -> Choose a "Posts Widget"
 and drag it to the sidebar where you wish it to appear.
 
 You can check demo on following pages.
+
 http://plugin.bdwebteam.com/responsive-posts-widget/
 
 == Screenshots ==
