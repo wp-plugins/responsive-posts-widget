@@ -1,5 +1,5 @@
 === Responsive Posts Widget ===
-Contributors: Md. Mahabub Hasan Manik 
+Contributors: Mahabub Hasan 
 Tags: advanced recent posts, advanced recent posts widget, category, post-plugins, posts, recent, recent posts, recent posts widget, widget
 Requires at least: 1.0.1
 Tested up to: 4.2
@@ -29,39 +29,38 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     * You can order your posts randomly   
     * You can order your posts time
          
-      Easy to configure CSS 
-      You can check demo on following pages. http://plugin.bdwebteam.com/responsive-posts-widget/
-     
+    Easy to configure CSS 
+    You can check demo on following pages. http://plugin.bdwebteam.com/responsive-posts-widget/
+    
     *Credits*
-
-         Author: Md.Mahabub Hasan Manik
-     Author URI: http://bdwebteam.com
+    
+    Author URI: http://bdwebteam.com
     Support Email: m.manik01@gmail.com
-        
-  **Recommended WordPress Plugins**
-
-   * [Service Boxes Widgets Text Icon](https://wordpress.org/plugins/service-boxes-widgets-text-icon/)
-
-== Installation ==
-
+    
+    **Recommended WordPress Plugins**
+    
+    * [Service Boxes Widgets Text Icon](https://wordpress.org/plugins/service-boxes-widgets-text-icon/)
+    
+    = Installation =
+    
     Install and Activate 
     
     1. Unzip the downloaded `responsive-posts-widget` zip file
     2. Upload the `responsive-posts-widget` folder and its contents into the `wp-content/plugins/` directory of your WordPress installation
     3. Activate responsive-posts-widget from Plugins page
-
+    
     Implement
-
+    
     1. Go to the wp admin Widget page.
     2. Drag and drop "Responsive Posts Widget" into active sidebar.
-
-== Frequently Asked Questions ==
-
+    
+    = Frequently Asked Questions =
+    
     Q : How can I add a list of posts widget to my sidebar? A : Go to the Appearance -> Widgets -> Choose a "Posts Widget" and drag it to the sidebar where you wish it to appear.
     
-      You can check demo on following pages. http://plugin.bdwebteam.com/responsive-posts-widget/
-      
-== Screenshots ==
-
-1. Admin inteface .
-2. Post display.
+    You can check demo on following pages. http://plugin.bdwebteam.com/responsive-posts-widget/
+    
+    = Screenshots =
+    
+    1. Admin inteface .
+    2. Post display.

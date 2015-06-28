@@ -3,10 +3,10 @@
    * Responsive Posts Widget when the plugin is uninstalled.
    *
    * @package   Responsive_Posts_Widget
-   * @author    Md. Mahabub Masan Manik <m.manik01@gmail.com>
+   * @author    Mahabub Masan
    * @license   MIT License
    * @link      http://bdwebteam.com/
-   * @copyright 2015 Mahabub Hasan
+   * @copyright 2015
  */
 
 // If uninstall, not called from WordPress, then exit

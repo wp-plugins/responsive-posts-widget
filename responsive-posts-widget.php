@@ -3,7 +3,7 @@
     * Plugin Name: Responsive Posts Widget
     * Plugin URI: http://plugin.bdwebteam.com/responsive-posts-widget
     * Description: Adds a widget that shows the most recent posts of your site with excerpt, featured image, date by sorting & ordering feature
-    * Author:Md. Mahabub Hasan Manik
+    * Author: Mahabub Hasan
     * Author URI: http://bdwebteam.com/
     * Version: 1.0.1
     * Text Domain: responsive-posts
@@ -15,10 +15,10 @@
 /**
    *
    * @package   Responsive_Posts_Widget
-   * @author    Md. Mahabub Masan Manik <m.manik01@gmail.com>
+   * @author    Mahabub Masan
    * @license   MIT License
    * @link      http://plugin.bdwebteam.com/responsive-posts-widget
-   * @copyright 2015 Mahabub Hasan
+   * @copyright 2015
    * 
  */
 
