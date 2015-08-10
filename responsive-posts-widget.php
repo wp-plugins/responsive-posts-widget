@@ -91,7 +91,7 @@ class responsive_posts extends WP_Widget {
 			'cat'			=> $instance['posts_cat_id'],
 			'ignore_sticky_posts'	=> true,
 			'orderby'		=> $instance['posts_orderby'],
-			'order'			=> 'dsc',
+			//'order'			=> 'DSC',
 			'date_query' => array(
 				array(
 					'after' => $instance['posts_time'],
@@ -267,7 +267,7 @@ class responsive_posts extends WP_Widget {
 		<p style="padding-top: 0.3em;">
 			<label style="width: 100%; display: inline-block;" for="<?php echo $this->get_field_id("posts_orderby"); ?>"><?php _e('Order by:', 'responsive_posts'); ?></label>
 			<select style="width: 100%;" id="<?php echo $this->get_field_id("posts_orderby"); ?>" name="<?php echo $this->get_field_name("posts_orderby"); ?>">
-			  <option value="date"<?php selected( $instance["posts_orderby"], "date" ); ?>><?php _e('Most recent', 'responsive_posts'); ?></option>
+			  <option value="date"<?php selected( $instance["posts_orderby"], "date" ); ?>><?php _e('Most recent/Date', 'responsive_posts'); ?></option>
 			  <option value="comment_count"<?php selected( $instance["posts_orderby"], "comment_count" ); ?>><?php _e('Most commented', 'responsive_posts'); ?></option>
 			  <option value="rand"<?php selected( $instance["posts_orderby"], "rand" ); ?>><?php _e('Random', 'responsive_posts'); ?></option>
 			</select>	
