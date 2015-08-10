@@ -4,7 +4,7 @@ Tags: advanced recent posts, advanced recent posts widget, category, post-plugin
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=rume_86%40yahoo%2ecom&lc=US&item_name=wordpress%20plugin&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
 Requires at least: 1.0.1
 Tested up to: 4.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
