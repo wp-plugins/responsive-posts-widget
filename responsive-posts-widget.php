@@ -91,7 +91,7 @@ class responsive_posts extends WP_Widget {
 			'cat'			=> $instance['posts_cat_id'],
 			'ignore_sticky_posts'	=> true,
 			'orderby'		=> $instance['posts_orderby'],
-			//'order'			=> 'DSC',
+			'order'			=> 'DESC',
 			'date_query' => array(
 				array(
 					'after' => $instance['posts_time'],
