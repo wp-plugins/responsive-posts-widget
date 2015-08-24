@@ -150,7 +150,7 @@ class responsive_posts extends WP_Widget {
                 $output .= '<p>'.$trimmed_content.'</p>';                            
             } 
              if($instance['show_read_more']==1) {
-                $output .= '<a class="post-read-more" href="'.$post_permalink.'>">Read More</a>';
+                $output .= '<a class="post-read-more" href="'.$post_permalink.'">Read More</a>';
             } 
 			$output .= '</div>';            
           $output .= '</div>';
