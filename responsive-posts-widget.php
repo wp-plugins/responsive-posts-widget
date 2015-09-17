@@ -5,7 +5,7 @@
     * Description: Adds a widget that shows the most recent posts of your site with excerpt, featured image, date by sorting & ordering feature
     * Author: Mahabub Hasan
     * Author URI: http://bdwebteam.com/
-    * Version: 1.0.1
+    * Version: 1.0.3
     * Text Domain: responsive-posts
     * Domain Path: /languages
     * License: MIT License
@@ -43,7 +43,7 @@ if (! defined ( 'WP_PLUGIN_DIR' ))
 class responsive_posts extends WP_Widget {
              
     //	@var string (The plugin version)		
-	var $version = '1.0.1';
+	var $version = '1.0.3';
 	//	@var string $localizationDomain (Domain used for localization)
 	var $localizationDomain = 'responsive-posts';
 	//	@var string $pluginurl (The url to this plugin)
